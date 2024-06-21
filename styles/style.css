@@ -47,11 +47,10 @@ img {
 /* media para img*/
 @media (max-width:768px) {
     img {
-        top: 29rem;
+        top: 15rem;
         width: 10rem;
     }
 }
-
 .icon {
     display: flex;
     position: fixed;
@@ -109,8 +108,9 @@ img {
         left: 45%;
         transform: translateX(-50%);
         width: 20rem;
-        top: 20rem;
+        top: 30rem;
         background: none;
+        box-shadow: none;
     }
 
     .content a {
@@ -118,7 +118,15 @@ img {
         color: #090909;
     }
 }
-
+@media (max-height:768px) {
+    .content {
+        width: 27rem;
+        left: 50%;
+        top: .1rem;
+        box-shadow: none;
+ 
+    }
+}
 a:hover {
     transition: all .3s;
     background-color: rgb(0, 0, 0);
