@@ -4,12 +4,7 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
-    background-image: conic-gradient(from -246.1deg, #ffffffee 25%, #ffffffee 25%,
-            #ffffffee 50%,
-            #ffffffee 50%,
-            #000000e7 50%,
-            #000000e7 75%,
-            #000000e7 100%);
+    background: linear-gradient(to bottom left,black 50%, white 50%);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -136,4 +131,62 @@ a:hover {
     border-left: 1rem solid #f5ff2f;
     border-right: 1rem solid #f5ff2f;
     box-shadow: 0 0 10px #09fff7;
+}
+ 
+
+.face{
+   width: 50%;
+   height: 50vh;
+   max-width: 450px;
+   aspect:ratio 1/1;
+   background-color: rgb(255, 213, 0);
+   border-radius: 50%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+   outline: 13px solid rgb(255, 166, 0);
+   border: 13px solid rgb(255, 187, 0,0.926);
+   box-shadow: 1px 1px 1rem black;
+   position: absolute;
+}
+
+.eyes {
+    width: 80%;
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.leftEye, .rightEye{
+    width: 455;
+    aspect-ratio: 1/1;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    box-shadow: 1px 1px 1rem gray;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.leftPupil, .rightPupil {
+    width: 50px;
+    height: 50px;
+    background-color: #000;
+    border-radius: 50%;
+   
+}
+
+.mouth {
+    
+  
+    width: 130px;
+    height: 30px;
+    background: radial-gradient( rgb(174, 125, 33), rgb(121, 81, 5));
+    border-radius: 100%;
+    margin-bottom: 80px;
+    border: 2px solid rgb(244, 205, 113);
+    border-style: inset;
+
 }
