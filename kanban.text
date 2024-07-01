@@ -1,2 +1,4 @@
-1 comprobar los usuarios con sus contraseñas 
-. hacer un bocle y un filter para filtrar todos los usuarios y sus contraseñas
+US201 comprobar los usuarios con sus contraseñas 
+US203 verificar se el usaurio y la contraseñas esxisten en los datos del JSON
+US204 hacer que el blog  muestra las tarjetas de los articulos 
+US205  dar un function para que se podran filtrar por las etiquetas definidas por su nombre
