@@ -19,17 +19,17 @@ function iniciarSesion(event) {
   // Seleccionar el checkbox
   const checkbox = document.getElementById('checkbox');
   // Seleccionar el campo de correo electrónico
-  const correoInput = document.getElementById('email_iniciar');
+  const correoInput = document.getElementById('email');
   const correo = correoInput.value;
 
   // Verificar si el correo electrónico es válido
-  if (!validarCorreoElectronico(correo)) {
-      // Mostrar un mensaje si el correo electrónico no es válido
-      alert("Por favor, introduce un correo electrónico válido.");
-      // prevenir(avsr) el envio del formulario
-      event.preventDefault();
-      return;
-  }
+  // if (!validarCorreoElectronico(correo)) {
+  //     // Mostrar un mensaje si el correo electrónico no es válido
+  //     alert("Por favor, introduce un correo electrónico válido.");
+  //     // prevenir(avsr) el envio del formulario
+  //     event.preventDefault();
+  //     return;
+  // }
 
   // Verificar si el checkbox está marcado
   if (checkbox.checked) {
